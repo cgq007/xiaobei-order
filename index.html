@@ -27,7 +27,7 @@
 <script>
 const SUPABASE_URL='https://xmspzhqggxgwqlwiwnpp.supabase.co';
 const SUPABASE_ANON_KEY='sb_publishable_iHnij0EUv1-jVfoubkVWLw_TlonrWCY';
-const ADMIN_PASSWORD='1234';
+const ADMIN_PASSWORD='long0710';
 const db=supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY);
 const DEFAULT_SETTINGS={site_title:'筑波小贝屋 🐚',site_subtitle:'本周手作肉松小贝预订｜数量有限，售完即止\n筑波大学・天久保・春日・研究学园周边可配送',products_title:'今日可预订',notice_text:'下单后请联系店主微信确认付款。提交成功后会自动生成订单编号，请截图保存。',form_title:'填写配送信息',guide_title:'购买说明',guide_text:'价格：300日元/个起。\n保存：建议当天食用，冷藏后口感会变化。\n过敏原：鸡蛋、小麦、乳制品、蛋黄酱等。',contact_text:'微信：请填写你的微信号\n付款：PayPay / 现金\n配送：根据订单区域统一配送',footer_text:'© 筑波小贝屋｜预订制手作点心'};
 let settings={...DEFAULT_SETTINGS};let products=[];let cart={};let orders=[];
